@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Coding Power</title>
+</head>
+
+ <style>
+
+
+
+
+
+body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      padding: 20 px;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    .strong{font-size: 30px;
+     text-align: left 10px;
+}
+  #blod{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: right;
+  
+  }
+
+  p{
+    margin: 5px;
+  }
+
+    #main {
+    background-color: #fff;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    header {
+      display: flex;
+      align-items: center;
+    }
+
+    #img{
+      right: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    header img {
+      width: 160px;
+     height:  150px;
+      
+      border-radius: 50%;
+      margin-right: 50px;
+    }
+
+
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #333;
+    border-bottom: 3px solid #0d98b4;
+      padding: 0px;
+      margin: 0px;
+      border-radius: 4px;
+    }
+
+
+
+    #professional-summary{
+        margin-top: 20px;
+        padding-top: 20px;
+        
+        height: 25vh;
+        width: 100%;
+       
+       
+
+    }
+
+
+    #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1c97af;
+  color: white;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    
+    
+}
+
+.container{
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.container h1{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.container .skill{
+    margin-bottom: 18px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.container .skill h3{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.container .skill h4{
+    float: right;
+}
+
+.container .skill .skill-bar{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    border-radius: 15px;
+    background: #48cae4;
+}
+
+.container .skill .fill-bar{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 15px;
+    border-radius: 15px;
+    background: #0077b6;
+}
+
+.container .skill .sql{
+    animation: sql 2s;
+    width: 90%;
+}
+
+.container .skill .html{
+    animation: html 2s;
+    width: 80%;
+}
+
+.container .skill .css{
+    animation: css 2s;
+    width: 60%;
+}
+
+.container .skill .javascript{
+    animation: javascrip 2s;
+    width: 55%;
+}
+
+/* .container .skill .react{
+    animation: react 2s;
+    width: 35%;
+} */
+
+@keyframes sql{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 55%;
+    }
+}
+
+/* @keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+.working{
+       position: relative;
+
+    } */
+
+
+
+
+
+
+    #custom {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#custom td, #custom th {
+
+  padding: 8px;
+}
+
+
+
+#custom th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+ 
+  color: Black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 150px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+
+<body>
+
+    <div id="main">
+
+        <header>
+          <img id ="img" src="image/myimage.jpg" alt="Profile Picture">
+          <div>
+            <p>
+              <strong class="strong">Md Mithun Sarkar</strong>
+              <b id="blod"> <br>
+                Freelancer | Oracle Apex Developer <br>
+                Address: Danmondi Dhaka <br>
+                Email: mithunmr2@gmail.com <br>
+                Phone: 01732666237
+              </b>
+            </p>
+          </div>
+        </header>
+    
+        <section id="professional-summary">
+          <h2>Professional Summary</h2>
+          <p>
+            Results-oriented and detail-driven Oracle Apex Developer with a proven track record of designing and implementing creative solutions. Experienced in Oracle SQL, PL/SQL, and web technologies. Adept at collaborating with cross-functional teams to drive project success.
+          </p>
+        </section>
+
+
+
+
+
+    <div class="body">
+    <div class="container">
+        <h2>Key Skills</h2>
+        <div class="skill">
+            <h3>sql</h3>
+            <h4>90%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar sql"></span>
+        </div>
+        <div class="skill">
+            <h3>html</h3>
+            <h4>80%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar html"></span>
+        </div>
+        <div class="skill">
+            <h3>css</h3>
+            <h4>60%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar css"></span>
+        </div>
+        <div class="skill">
+            <h3>javascript</h3>
+            <h4>55%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar javascript"></span>
+        </div>
+        <!-- <div class="skill">
+            <h3>React</h3>
+            <h4>65%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar react"></span>
+        </div> -->
+    </div>
+</div> 
+
+<div class="working">
+<section id="experience" class="experience">
+    <h2>Work Experience</h2>
+    <p>
+      Oracle APEX Developer with 1 year of experience specializing in the design, development, and maintenance of scalable web applications. Proficient in leveraging the Oracle APEX low-code platform to create intuitive and responsive user interfaces. Adept at data modeling and implementing complex business logic using SQL and PL/SQL within the Oracle Database environment.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <table id="customers">
+        <tr>
+          <th>SN#</th>
+          <th>Exam NO</th>
+          <th>Board/Institute</th>
+          <th>Group/Subject</th>
+          <th>Passing Year</th>
+          <th>GPA/CGPA</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>BBA</td>
+          <td>National University</td>
+           <td>Management</td>
+            <td>2019</td>
+             <td>4.00</td>
+        </tr>
+        <tr>
+           <td>02</td>
+          <td>HSC</td>
+          <td>Tangail Commerce college</td>
+           <td>Business-Studies</td>
+            <td>2015</td>
+             <td>5.00</td>
+        </tr>
+        <tr>
+         <td>03</td>
+          <td>SSC</td>
+          <td>B.M.L high school</td>
+           <td>Business-Studies</td>
+            <td>2013</td>
+             <td>5.00</td>
+        </tr>
+        
+      </table>
+  </section>
+
+  <section id="personal-info" class="container">
+    <h1>Personal Information</h1>
+    <div class="personal-info">
+     
+<table id="custom">
+  <tr>
+          <th>Father Name</th>
+          <th>:</th>
+          <td>Md Saiful Islam</td>
+        </tr>
+        <tr>
+          <th>Mother Name</th>
+          <th>:</th>
+          <td>Monera Begum</td>
+        </tr>
+        <tr>
+          <th>Blood Group</th>
+          <th>:</th>
+          <td>AB+</td>
+        </tr>
+        <tr>
+          <th>Birth-day</th>
+          <th>:</th>
+          <td>25-Sep-1998</td>
+        </tr>
+
+        <tr>
+          <th>Religion</th>
+          <th>:</th>
+          <td>Islam</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <h2 class="References">References</h2>
+
+  <div class="row">
+    <div class="column" >
+      <table id="cus">
+    <tr>
+      <th>Saifuddin Siblu</th>
+      <tr>
+      <td>Consultant Database Design Development</td>
+      </tr>
+      <td>ISDB-BISEW IT Scholarship Project </td>
+    </tr>
+    <tr>
+      <td>Email: mithunmr2@gmail.com</td>
+      </tr>
+      </table>
+    </div>
+    <div class="column">
+      <table id="cus">
+    <tr>
+      <th>Md Ahsan Habib</th>
+      <tr>
+      <td>Consultant Database Design Development</td>
+      </tr>
+      <td>ISDB-BISEW IT Scholarship Project </td>
+    </tr>
+    <tr>
+      <td>Email: habibdu8@gmail.com</td>
+     
+      </tr>
+      </table>
+    </div>
+  </div>
+  <footer>
+    
+    <img src="image/sample_sig.jpg" alt="image">
+    <h4>Signature</h4>
+  </footer>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Resume</title>
+  <style>
+   
+
+    .container1 {
+      width: 550px;
+      background: white;
+      border-radius: 10px;
+      padding: 15px 30px;
+    }
+
+    .container1 h1 {
+      text-align: left;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .skill h3 {
+      flex: 1;
+      margin-bottom: 5px;
+    }
+
+    .skill h4 {
+      margin-left: 10px;
+    }
+
+    .skill-bar {
+      flex: 2;
+      height: 20px;
+      border-radius: 10px;
+      background: #48cae4;
+      position: relative;
+    }
+
+    .fill-bar {
+      height: 100%;
+      border-radius: 10px;
+      background: #0077b6;
+      width: 0;
+      animation: fillAnimation 2s ease-in-out;
+    }
+
+    @keyframes fillAnimation {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+   
+  </style>
+</head>
+
+<body>
+
+ 
+
+    
+
+    
+</body>
+
+</html> -->

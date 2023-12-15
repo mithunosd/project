@@ -1,0 +1,23 @@
+header{
+    background-color: aqua;
+    text-align: center;
+
+}
+#img{
+    border-radius: 50%;
+}
+
+
+h2 {
+    color: #333;
+    margin: 0px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #ddd;
+  
+    width: fit-content;
+    
+    
+
+
+  }
